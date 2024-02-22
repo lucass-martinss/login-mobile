@@ -1,0 +1,97 @@
+@media only screen and (min-width:400px) and (max-width: 700px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+    }
+    
+    header {
+        display: flex;
+        
+        align-items: center;
+        gap: 15vw;
+        background-color: white;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .menu {
+        padding: 0 5vw;
+    }
+
+    .logo {
+        display: flex;
+        gap: 1vw;
+    }
+
+    .header-content{
+        display: flex;
+        gap: 12vw;
+        
+    }
+    .carrinho-search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+    #Search-icon{
+        width: 20px;
+        height: 20px;
+        top: 24px;
+        left: 289px;
+        padding: 2.32px, 2.05px, 1.67px, 2.32px;
+        border-radius: 8px;
+
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f9f8fe;
+    }
+
+    .content-main{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        width: 75vw;
+        height: 90vh;
+        gap: 3vh;
+    }
+
+    .titulo{
+        padding: 2vh 7vw 0;
+        align-self: flex-start;
+    }
+    .titulo h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: #474747;
+
+    }
+    .hr {
+        justify-self: center;
+        padding-left: 5vw;
+        width: 65vw;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E2E3FF;
+        width: 15vw;
+        height: 6vh;
+        border-radius: 5px;
+    }
+}
